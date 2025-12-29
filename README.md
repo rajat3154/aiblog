@@ -1,4 +1,4 @@
-﻿# BeyondChats Assignment — Full Stack Article Enhancement System
+﻿#  Full Stack Article Enhancement System
 
 A full‑stack web application built for the BeyondChats assignment that scrapes blog articles, stores them in MongoDB, enhances them using an LLM (Groq via LangChain), and displays both original and AI‑enhanced versions in a responsive React UI.
 
@@ -52,8 +52,8 @@ Frontend
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/beyondchats-assignment.git
-cd beyondchats-assignment
+git clone https://github.com/rajat3154/aiblog.git
+cd aiblog
 ```
 
 ### 2. Backend Setup
@@ -167,6 +167,7 @@ Rajat Ranvir
 GitHub: [https://github.com/rajat3154](https://github.com/rajat3154)
 
 ---
+
 
 
 
