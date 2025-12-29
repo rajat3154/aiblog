@@ -119,7 +119,8 @@ Frontend `.env`
 
 1. Start backend:
 ```bash
-node server.js
+cd backend
+npm run dev
 ```
 
 2. Start frontend:
@@ -166,5 +167,6 @@ Rajat Ranvir
 GitHub: [https://github.com/rajat3154](https://github.com/rajat3154)
 
 ---
+
 
 
