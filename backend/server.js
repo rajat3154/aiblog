@@ -2,6 +2,7 @@ import dotenv from "dotenv"
 import express from "express"
 import mongoose from "mongoose"
 import cors from "cors";
+import runner from "./scraper.js";
 
 dotenv.config();
 
@@ -21,6 +22,8 @@ mongoose.connect(process.env.MONGO_URI)
 .then(()=>console.log("Database Connected successfully"))
 .catch((err)=>console.log(err))
 
+
 app.listen(process.env.PORT || 5000, async () => {
   console.log(`Server is running on ${process.env.PORT}`);
+  await runner();
 });
