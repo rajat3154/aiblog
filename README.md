@@ -48,7 +48,6 @@ Frontend
 - MongoDB Atlas account (or local MongoDB)
 - Groq API key
 - SerpAPI key
-- (Optional) ngrok or other tunneling for external callbacks
 
 ### 1. Clone the repository
 ```bash
@@ -73,7 +72,7 @@ PORT=5000
 
 Start the backend:
 ```bash
-node server.js
+npm run dev
 ```
 
 By default the backend runs at:
@@ -167,6 +166,7 @@ Rajat Ranvir
 GitHub: [https://github.com/rajat3154](https://github.com/rajat3154)
 
 ---
+
 
 
 
